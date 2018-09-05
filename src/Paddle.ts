@@ -2,8 +2,6 @@ import Entity from './Entity';
 import Game from './Game';
 
 class Paddle extends Entity {
-  points: number = 0;
-
   constructor(public game: Game, public side: 'left' | 'right') {
     super(game);
     this.create();
