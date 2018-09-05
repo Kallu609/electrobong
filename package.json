@@ -1,0 +1,15 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc && electron ./dist/app.js",
+    "dev": "nodemon"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "nodemon": "^1.18.4",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
